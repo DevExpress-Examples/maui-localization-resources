@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # DevExpress .NET MAUI Controls - Localization Resources
 
-This repository contains localization resource files with the UI strings that are translated into the following languages:
+This repository contains predefined localization resource files with the UI strings that are translated into the following languages:
 
 * [English (default language)](DevExpressMaui.resx)
 * [German](DevExpressMaui.de.resx)
@@ -13,12 +13,15 @@ This repository contains localization resource files with the UI strings that ar
 
 ## Create a Language Resource
 
-To localize the DevExpress .NET MAUI Controls in your application control to a specific language, follow the steps below:
+To localize the DevExpress .NET MAUI Controls in your application to a specific language, follow the steps below:
 
-1. Create a new resource file and name it `DevExpress.Maui.<culture_name>.resx`. The `<culture_name>` should match a language's name according to the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard. For example, the `DevExpress.Maui.it.resx` file is applied to your application if the device's language is **Italian**.
-1. Add the created resource to your application.
-1. Make sure that the `.UseDevExpress` method's parameter is set to `true`. Refer to the [Localization topic](https://docs.devexpress.devx/MAUI/404120/localization?v=22.2) for more information on how to enable an application localization.
-1. **Optional**. If you want to share your translation with the community, fork this repository, add your resource file with the translated localization strings, and create a pull request to this repository.
+1. Create a new resource file and name it `DevExpress.Maui.<culture_name>.resx`. The `<culture_name>` should match a language's name according to the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard. For example, the `DevExpress.Maui.it.resx` file is applied to your application if the device's language is **Italian**;
+2. Add the created resource to your application;
+3. Make sure that you call the `.UseDevExpress` method with `true` as an argument. Refer to the [Localization](https://docs.devexpress.devx/MAUI/404120/localization?v=22.2) topic for more information on how to enable localization in your application.
+
+## Contribution
+
+This repository is open for contributions. If you wish to share your translation with the community, please feel free to fork this repo and open a pull request with your .resx file or edit an already existing translation. 
 
 ## Documentation
 
