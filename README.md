@@ -26,4 +26,4 @@ Follow the steps below to localize DevExpress .NET MAUI Controls to a specific l
 
 ## More Examples
 
-[Localize Controls](https://github.com/DevExpress-Examples/maui-localization)
+[Localize Standard/DevExpress .NET MAUI Controls](https://github.com/DevExpress-Examples/maui-localization)
