@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CollectionViewStringId.GroupCaptionDisplayFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="CollectionViewStringId.GroupIntervalMonthDisplayFormat" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="CollectionViewStringId.GroupIntervalYearDisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="CollectionViewStringId.OutlookIntervals" xml:space="preserve">
+    <value>Antigo;Último mês;No início deste mês;Três semanas atrás;Duas semanas atrás;Última semana;;;;;;;;Ontem;Hoje;Amanhã;;;;;;;;Próxima semana;Duas semanas a frente;Três semanas a frente ;No final deste mês;No próximo mês;Além do próximo mês;</value>
+  </data>
+  <data name="EditorStringId.ComboBox_NotFound" xml:space="preserve">
+    <value>Não encontrado</value>
+  </data>
+  <data name="EditorStringId.DataForm_ValidationExceptionMessage" xml:space="preserve">
+    <value>Valor inválido</value>
+  </data>
+  <data name="EditorStringId.DateEdit_Picker_CANCEL" xml:space="preserve">
+    <value>CANCELA</value>
+  </data>
+  <data name="EditorStringId.DateEdit_Picker_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryAverage" xml:space="preserve">
+    <value>MÉDIA</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryCount" xml:space="preserve">
+    <value>CONTADOR</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryCustom" xml:space="preserve">
+    <value>VAL</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryMax" xml:space="preserve">
+    <value>MAX</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryMin" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="GridStringId.Caption_SummaryNone" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="GridStringId.Caption_SummarySum" xml:space="preserve">
+    <value>SOMA</value>
+  </data>
+  <data name="GridStringId.EditorFormPage_EditValues" xml:space="preserve">
+    <value>Edita Valores</value>
+  </data>
+  <data name="GridStringId.EditorFormPage_Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="GridStringId.GridOutlookIntervals" xml:space="preserve">
+    <value>Antigo;Último mês;No início deste mês;Três semanas atrás;Duas semanas atrás;Última semana;;;;;;;;Ontem;Hoje;Amanhã;;;;;;;;Próxima semana;Duas semanas a frente;Três semanas a frente ;No final deste mês;No próximo mês;Além do próximo mês;</value>
+  </data>
+  <data name="GridStringId.GroupCaptionDisplayFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="GridStringId.GroupIntervalMonthDisplayFormat" xml:space="preserve">
+    <value>{0}, {1}</value>
+  </data>
+  <data name="GridStringId.GroupIntervalYearDisplayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="GridStringId.GroupSummaryCountDisplayFormat" xml:space="preserve">
+    <value>{0}={2}</value>
+  </data>
+  <data name="GridStringId.GroupSummaryDisplayFormat" xml:space="preserve">
+    <value>{1}: {0}={2}</value>
+  </data>
+  <data name="GridStringId.GroupSummaryShortDisplayFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="GridStringId.TotalSummaryDisplayFormat" xml:space="preserve">
+    <value>{0}={2}</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Day" xml:space="preserve">
+    <value>dia</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Days" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hour" xml:space="preserve">
+    <value>hora</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hours" xml:space="preserve">
+    <value>horas</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minute" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minutes" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Week" xml:space="preserve">
+    <value>semana</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Weeks" xml:space="preserve">
+    <value>semanas</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentDetailFormat_Recurrence" xml:space="preserve">
+    <value>Repete {0}</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentDetailFormat_Status" xml:space="preserve">
+    <value>Status: {0}</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_AddAnotherReminder" xml:space="preserve">
+    <value>Adicionar outro lembrete</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_AddReminder" xml:space="preserve">
+    <value>Adicionar um lembrete</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_AllDay" xml:space="preserve">
+    <value>Dia todo</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_Label" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_Repeat" xml:space="preserve">
+    <value>Repete</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEditPage_SubjectPlaceholder" xml:space="preserve">
+    <value>Nome do compromisso</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_AcceptAppointmentRemoveAction" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_CancelAction" xml:space="preserve">
+    <value>Cancela</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_CancelAppointmentRemoveAction" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_EditAppointmentTitle" xml:space="preserve">
+    <value>Editar Compromisso</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_EditFutureOccurrencesAction" xml:space="preserve">
+    <value>Alterar este e todos os compromissos futuros</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_EditOccurrenceAction" xml:space="preserve">
+    <value>Alterar apenas este compromisso</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_EditPatternAction" xml:space="preserve">
+    <value>Alterar todos os compromissos da série</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_NewAppointmentTitle" xml:space="preserve">
+    <value>Novo compromisso</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_ReminderCustomization" xml:space="preserve">
+    <value>Personalização de lembrete</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_RemoveAppointmentTitle" xml:space="preserve">
+    <value>Exluir compromisso?</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_RemoveFutureOccurrencesAction" xml:space="preserve">
+    <value>Excluir este e todos os compromissos futuros</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_RemoveOccurrenceAction" xml:space="preserve">
+    <value>Excluir apenas este compromisso</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_RemovePatternAction" xml:space="preserve">
+    <value>Excluir todos os compromissos da série</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentEdit_SelectAppointmentTypeTitle" xml:space="preserve">
+    <value>Este é um compromisso recorrente.</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Anniversary" xml:space="preserve">
+    <value>Aniversário</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Birthday" xml:space="preserve">
+    <value>Nascimento</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Business" xml:space="preserve">
+    <value>Negócio</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Important" xml:space="preserve">
+    <value>Importante</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_MustAttend" xml:space="preserve">
+    <value>Deve Comparecer</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_NeedsPreparation" xml:space="preserve">
+    <value>Requer Preparação</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Personal" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_PhoneCall" xml:space="preserve">
+    <value>Chamada Telefônica</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_TravelRequired" xml:space="preserve">
+    <value>Viagem Necessária</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Vacation" xml:space="preserve">
+    <value>Férias</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Label" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Reminder" xml:space="preserve">
+    <value>Lembrete</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Busy" xml:space="preserve">
+    <value>Ocupado</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Free" xml:space="preserve">
+    <value>Livre</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OutOfOffice" xml:space="preserve">
+    <value>Fora do escritório</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Tentative" xml:space="preserve">
+    <value>Tentativa</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWeekendDays" xml:space="preserve">
+    <value>Fim de Semana</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWorkDays" xml:space="preserve">
+    <value>Dia da semana</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst" xml:space="preserve">
+    <value>Primeira</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFourth" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast" xml:space="preserve">
+    <value>Última</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthThird" xml:space="preserve">
+    <value>Terceira</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkingElsewhere" xml:space="preserve">
+    <value>Trabalhando em outro local</value>
+  </data>
+  <data name="SchedulerStringId.CommonRadioGroup_After" xml:space="preserve">
+    <value>Depois</value>
+  </data>
+  <data name="SchedulerStringId.CommonRadioGroup_Never" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="SchedulerStringId.CommonRadioGroup_Occurrences" xml:space="preserve">
+    <value>ocorrência(s)</value>
+  </data>
+  <data name="SchedulerStringId.CommonRadioGroup_On" xml:space="preserve">
+    <value>Em</value>
+  </data>
+  <data name="SchedulerStringId.DayRadioGroup_DayOrDays" xml:space="preserve">
+    <value>dia(s)</value>
+  </data>
+  <data name="SchedulerStringId.DayRadioGroup_Every" xml:space="preserve">
+    <value>Todo</value>
+  </data>
+  <data name="SchedulerStringId.DayRadioGroup_EveryWeekDay" xml:space="preserve">
+    <value>Todos os dias da semana</value>
+  </data>
+  <data name="SchedulerStringId.MonthRadioGroup_DayOrDays" xml:space="preserve">
+    <value>dia(s)</value>
+  </data>
+  <data name="SchedulerStringId.MonthRadioGroup_Each" xml:space="preserve">
+    <value>Cada</value>
+  </data>
+  <data name="SchedulerStringId.MonthRadioGroup_MonthOrMonths" xml:space="preserve">
+    <value>mês(es)</value>
+  </data>
+  <data name="SchedulerStringId.MonthRadioGroup_OfEvery" xml:space="preserve">
+    <value>de todos</value>
+  </data>
+  <data name="SchedulerStringId.MonthRadioGroup_The" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeekForDailyRecurrence" xml:space="preserve">
+    <value>Dia da semana inválido para uma recorrência diária. Somente dias de semana. Todos os dias, dias da semana. Dias de fim de semana e dias de semana. Os Dias de Trabalho são válidos neste contexto.</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceEditPage_EndRepeat" xml:space="preserve">
+    <value>Terminar repetição</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceEditPage_Frequency" xml:space="preserve">
+    <value>Frequência</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceEditPage_Repeat" xml:space="preserve">
+    <value>Repete</value>
+  </data>
+  <data name="SchedulerStringId.RecurrenceEditPage_RepeatOn" xml:space="preserve">
+    <value>Repete em</value>
+  </data>
+  <data name="SchedulerStringId.ReminderAddPage_Custom" xml:space="preserve">
+    <value>Personalizar...</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_AtTimeOfEvent" xml:space="preserve">
+    <value>Na hora do evento</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Custom" xml:space="preserve">
+    <value>Personalizar...</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Day" xml:space="preserve">
+    <value>dia</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Days" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Hour" xml:space="preserve">
+    <value>hora</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Hours" xml:space="preserve">
+    <value>horas</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Minute" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Minutes" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Second" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_Seconds" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_TimeBefore" xml:space="preserve">
+    <value>{0} antes</value>
+  </data>
+  <data name="SchedulerStringId.ReminderTextFormatter_TimeBeforeStart" xml:space="preserve">
+    <value>{0} antes de iniciar</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeHourly" xml:space="preserve">
+    <value>De hora em hora</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMinutely" xml:space="preserve">
+    <value>A cada minuto</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly" xml:space="preserve">
+    <value>A cada mês</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeNever" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly" xml:space="preserve">
+    <value>A cada semana</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly" xml:space="preserve">
+    <value>A cada ano</value>
+  </data>
+  <data name="SchedulerStringId.TimeZoneSelectPage_SearchBarPlaceholderText" xml:space="preserve">
+    <value>Fuso horário</value>
+  </data>
+  <data name="SchedulerStringId.WeekRadioGroup_Every" xml:space="preserve">
+    <value>Toda</value>
+  </data>
+  <data name="SchedulerStringId.WeekRadioGroup_WeekOrWeeks" xml:space="preserve">
+    <value>semana(s)</value>
+  </data>
+  <data name="SchedulerStringId.YearRadioGroup_DayOf" xml:space="preserve">
+    <value>dia de</value>
+  </data>
+  <data name="SchedulerStringId.YearRadioGroup_Every" xml:space="preserve">
+    <value>Todo</value>
+  </data>
+  <data name="SchedulerStringId.YearRadioGroup_OfEvery" xml:space="preserve">
+    <value>de todo</value>
+  </data>
+  <data name="SchedulerStringId.YearRadioGroup_The" xml:space="preserve">
+    <value>O</value>
+  </data>
+</root>
