@@ -7,9 +7,15 @@
 
 This repository contains localization resource files with UI strings translated into the following languages:
 
+### DevExpress localizations
+
 * [English (default language)](DevExpressMaui.resx)
 * [German](DevExpressMaui.de.resx)
 * [French](DevExpressMaui.fr.resx)
+
+### Community localizations
+
+* [Portuguese](DevExpressMaui.pt.resx)
 
 ## Create a Language Resource
 
