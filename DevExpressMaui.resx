@@ -162,6 +162,9 @@
   <data name="SchedulerStringId.AppointmentEditPage_AllDay" xml:space="preserve">
     <value>All day</value>
   </data>
+  <data name="SchedulerStringId.Agenda_Today">
+    <value>Today</value>
+  </data>
   <data name="SchedulerStringId.AppointmentEditPage_Label" xml:space="preserve">
     <value>Label</value>
   </data>
@@ -429,6 +432,12 @@
   <data name="SchedulerStringId.YearRadioGroup_The" xml:space="preserve">
     <value>The</value>
   </data>
+  <data name="SchedulerStringId.Agenda_EmptyDay" xml:space="preserve">
+    <value>No events</value>
+  </data>
+  <data name="SchedulerStringId.Agenda_AllDay" xml:space="preserve">
+    <value>All day</value>
+  </data>
   <data name="EditorStringId.DetailEditFormPage_Save" xml:space="preserve">
     <value>Save</value>
   </data>
@@ -489,7 +498,7 @@
   <data name="PdfViewerStringId.MessageSearchFinished" xml:space="preserve">
     <value>Finished searching throughout the document. No more matches were found.</value>
   </data>
-    <data name="PdfViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
+  <data name="PdfViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
     <value>Finished searching throughout the document. No matches were found.</value>
   </data>
   <data name="PdfViewerStringId.MessageErrorTitle" xml:space="preserve">
@@ -518,5 +527,77 @@
   </data>
   <data name="PdfViewerStringId.PasswordRequest_Placeholder" xml:space="preserve">
     <value>Password</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PdfViewerStringId.Button_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PdfViewerStringId.HighlightAnnotationSubject" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="PdfViewerStringId.UnderlineAnnotationSubject" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="PdfViewerStringId.SquiggleAnnotationSubject" xml:space="preserve">
+    <value>Squiggle</value>
+  </data>
+  <data name="PdfViewerStringId.StrikethroughAnnotationSubject" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="PdfViewerStringId.FreeTextAnnotationSubject" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="PdfViewerStringId.CircleAnnotationSubject" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="PdfViewerStringId.SquareAnnotationSubject" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="PdfViewerStringId.InkAnnotationSubject" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="PdfViewerStringId.StickyAnnotationSubject" xml:space="preserve">
+    <value>Sticky Note</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationAuthor" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="PdfViewerStringId.AddStickyNoteHint" xml:space="preserve">
+    <value>Tap the page to add a comment</value>
+  </data>
+  <data name="PdfViewerStringId.AddFreeTextHint" xml:space="preserve">
+    <value>Draw a rectangle on the page to add text</value>
+  </data>
+  <data name="PdfViewerStringId.AddComment" xml:space="preserve">
+    <value>Add Comment</value>
+  </data>
+  <data name="PdfViewerStringId.AddReply" xml:space="preserve">
+    <value>Add Reply</value>
+  </data>
+  <data name="PdfViewerStringId.NewComment" xml:space="preserve">
+    <value>New Comment</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationsPageTitle" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="PdfViewerStringId.Signatures" xml:space="preserve">
+    <value>Signatures</value>
+  </data>
+  <data name="PdfViewerStringId.NewSignaturePageTitle" xml:space="preserve">
+    <value>New Signature</value>
+  </data>
+  <data name="PdfViewerStringId.NewSignaturePlaceholder" xml:space="preserve">
+    <value>Sign Here</value>
+  </data>
+  <data name="PdfViewerStringId.NoSignaturesFound" xml:space="preserve">
+    <value>No signatures found. Tap Add to create a signature.</value>
   </data>
 </root>

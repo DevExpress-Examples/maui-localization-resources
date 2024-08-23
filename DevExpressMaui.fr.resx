@@ -7,20 +7,20 @@
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -393,6 +393,15 @@
   <data name="SchedulerStringId.MonthRadioGroup_MonthOrMonths" xml:space="preserve">
       <value>mois(s)</value>
   </data>
+  <data name="SchedulerStringId.Agenda_EmptyDay" xml:space="preserve">
+    <value>Aucun événement</value>
+  </data>
+  <data name="SchedulerStringId.Agenda_AllDay" xml:space="preserve">
+      <value>Journée entière</value>
+  </data>
+  <data name="SchedulerStringId.Agenda_Today">
+    <value>Aujourd'hui</value>
+  </data>
   <data name="EditorStringId.DetailEditFormPage_Save" xml:space="preserve">
     <value>Enregistrer</value>
   </data>
@@ -482,5 +491,77 @@
   </data>
   <data name="PdfViewerStringId.PasswordRequest_Placeholder" xml:space="preserve">
     <value>Mot de passe</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Clear" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="PdfViewerStringId.Button_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="PdfViewerStringId.HighlightAnnotationSubject" xml:space="preserve">
+    <value>Surligner</value>
+  </data>
+  <data name="PdfViewerStringId.UnderlineAnnotationSubject" xml:space="preserve">
+    <value>Souligner</value>
+  </data>
+  <data name="PdfViewerStringId.SquiggleAnnotationSubject" xml:space="preserve">
+    <value>Zigzag</value>
+  </data>
+  <data name="PdfViewerStringId.StrikethroughAnnotationSubject" xml:space="preserve">
+    <value>Barrer</value>
+  </data>
+  <data name="PdfViewerStringId.FreeTextAnnotationSubject" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="PdfViewerStringId.CircleAnnotationSubject" xml:space="preserve">
+    <value>Cercle</value>
+  </data>
+  <data name="PdfViewerStringId.SquareAnnotationSubject" xml:space="preserve">
+    <value>Carré</value>
+  </data>
+  <data name="PdfViewerStringId.InkAnnotationSubject" xml:space="preserve">
+    <value>Dessin</value>
+  </data>
+  <data name="PdfViewerStringId.StickyAnnotationSubject" xml:space="preserve">
+    <value>Note adhésive</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationAuthor" xml:space="preserve">
+    <value>Invité</value>
+  </data>
+  <data name="PdfViewerStringId.AddStickyNoteHint" xml:space="preserve">
+    <value>Touchez la page pour ajouter un commentaire</value>
+  </data>
+  <data name="PdfViewerStringId.AddFreeTextHint" xml:space="preserve">
+    <value>Tracez un rectangle sur la page pour ajouter du texte</value>
+  </data>
+  <data name="PdfViewerStringId.AddComment" xml:space="preserve">
+    <value>Ajouter un commentaire</value>
+  </data>
+  <data name="PdfViewerStringId.AddReply" xml:space="preserve">
+    <value>Ajouter une réponse</value>
+  </data>
+  <data name="PdfViewerStringId.NewComment" xml:space="preserve">
+    <value>Nouveau commentaire</value>
+  </data>
+  <data name="PdfViewerStringId.AnnotationsPageTitle" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="PdfViewerStringId.Signatures" xml:space="preserve">
+    <value>Signatures</value>
+  </data>
+  <data name="PdfViewerStringId.NewSignaturePageTitle" xml:space="preserve">
+    <value>Nouvelle signature</value>
+  </data>
+  <data name="PdfViewerStringId.NewSignaturePlaceholder" xml:space="preserve">
+    <value>Signez ici</value>
+  </data>
+  <data name="PdfViewerStringId.NoSignaturesFound" xml:space="preserve">
+    <value>Aucune signature trouvée. Appuyez sur Ajouter pour créer une signature.</value>
   </data>
 </root>
