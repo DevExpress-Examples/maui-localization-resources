@@ -57,11 +57,20 @@
   <data name="EditorStringId.DataForm_ValidationExceptionMessage" xml:space="preserve">
     <value>Invalid input value</value>
   </data>
+  <data name="EditorStringId.FilteringUIForm_PageTitle">
+    <value>Filters</value>
+  </data>
   <data name="EditorStringId.DateEdit_Picker_CANCEL" xml:space="preserve">
     <value>CANCEL</value>
   </data>
   <data name="EditorStringId.DateEdit_Picker_OK" xml:space="preserve">
     <value>OK</value>
+  </data>
+  <data name="EditorStringId.DateEdit_Picker_CLEAR" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_ClearButtonText" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="GridStringId.Caption_SummaryAverage" xml:space="preserve">
     <value>AVG</value>
@@ -419,5 +428,95 @@
   </data>
   <data name="SchedulerStringId.YearRadioGroup_The" xml:space="preserve">
     <value>The</value>
+  </data>
+  <data name="EditorStringId.DetailEditFormPage_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="EditorStringId.DetailEditFormPage_Title" xml:space="preserve">
+    <value>Edit item values</value>
+  </data>
+  <data name="EditorStringId.DetailFormPage_Title" xml:space="preserve">
+    <value>Item values</value>
+  </data>
+  <data name="EditorStringId.DetailNewFormPage_Title" xml:space="preserve">
+    <value>Add new item</value>
+  </data>
+  <data name="HtmlEditStringId.InsertImage_Title" xml:space="preserve">
+    <value>Insert Image</value>
+  </data>
+  <data name="HtmlEditStringId.InsertImage_TakePhoto" xml:space="preserve">
+    <value>From camera</value>
+  </data>
+  <data name="HtmlEditStringId.InsertImage_UploadFromLibrary" xml:space="preserve">
+    <value>From photos</value>
+  </data>
+  <data name="HtmlEditStringId.SelectFontFamily" xml:space="preserve">
+    <value>Select font family</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_Title" xml:space="preserve">
+    <value>Insert hyperlink</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_LinkName" xml:space="preserve">
+    <value>Link name</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_LinkAddress" xml:space="preserve">
+    <value>Link address</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_Title" xml:space="preserve">
+    <value>Formatting</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_FontSize" xml:space="preserve">
+    <value>Font size</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_FontColor" xml:space="preserve">
+    <value>Font color</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_BackgroundColor" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Title" xml:space="preserve">
+    <value>Insert table</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_ApplyButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="PdfViewerStringId.MessageSearchFinished" xml:space="preserve">
+    <value>Finished searching throughout the document. No more matches were found.</value>
+  </data>
+    <data name="PdfViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
+    <value>Finished searching throughout the document. No matches were found.</value>
+  </data>
+  <data name="PdfViewerStringId.MessageErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="PdfViewerStringId.MessageLoadingError" xml:space="preserve">
+    <value>Unable to load the PDF document because the following file is not available or it is not a valid PDF document.</value>
+  </data>
+  <data name="PdfViewerStringId.PageCounter_GoToPage" xml:space="preserve">
+    <value>Go to page</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_ProtectedPDF" xml:space="preserve">
+    <value>Protected PDF file</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_EnterPassword" xml:space="preserve">
+    <value>Enter the password to open this document:</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_Placeholder" xml:space="preserve">
+    <value>Password</value>
   </data>
 </root>

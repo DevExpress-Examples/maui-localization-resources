@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root>  
+<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -42,11 +42,32 @@
   <data name="CollectionViewStringId.OutlookIntervals">
     <value>Älter;Letzter Monat;Früher in diesem Monat;Vor drei Wochen;Vor zwei Wochen;Letzte Woche;;;;;;;;Gestern;Heute;Morgen;;;;;;;;Nächste Woche;In zwei Wochen;In drei Wochen;Gegen Ende dieses Monats;Nächsten Monat;Nach dem nächsten Monat;</value>
   </data>
+  <data name="EditorStringId.FilteringUIForm_PageTitle">
+    <value>Filtr</value>
+  </data>
   <data name="EditorStringId.DateEdit_Picker_CANCEL">
     <value>Abbrechen</value>
   </data>
+  <data name="EditorStringId.DateEdit_Picker_CLEAR">
+    <value>Leeren</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_ApplyButtonText">
+    <value>Übernehmen</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_SearchPlaceholderText">
+    <value>Suche</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_CancelButtonText">
+    <value>Abbrechen</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_OkButtonText">
+    <value>Ok</value>
+  </data>
   <data name="EditorStringId.DateEdit_Picker_OK">
     <value>OK</value>
+  </data>
+  <data name="EditorStringId.FormPickerItem_ClearButtonText" xml:space="preserve">
+    <value>Leeren</value>
   </data>
   <data name="GridStringId.Caption_SummaryAverage">
     <value>Ø={0:#.##}</value>
@@ -383,5 +404,95 @@
   </data>
   <data name="EditorStringId.DataForm_ValidationExceptionMessage" xml:space="preserve">
       <value>Ungültiger Eingabewert</value>
+  </data>
+  <data name="EditorStringId.DetailEditFormPage_Save" xml:space="preserve">
+      <value>Speichern</value>
+  </data>
+  <data name="EditorStringId.DetailEditFormPage_Title" xml:space="preserve">
+      <value>Elementwerte bearbeiten</value>
+  </data>
+  <data name="EditorStringId.DetailFormPage_Title" xml:space="preserve">
+      <value>Artikelwerte</value>
+  </data>
+  <data name="EditorStringId.DetailNewFormPage_Title" xml:space="preserve">
+      <value>Füge neuen Gegenstand hinzu</value>
+  </data>
+    <data name="HtmlEditStringId.InsertImage_Title" xml:space="preserve">
+    <value>Bild einfügen</value>
+  </data>
+  <data name="HtmlEditStringId.InsertImage_TakePhoto" xml:space="preserve">
+    <value>Von Kamera</value>
+  </data>
+  <data name="HtmlEditStringId.InsertImage_UploadFromLibrary" xml:space="preserve">
+    <value>Aus Fotos</value>
+  </data>
+  <data name="HtmlEditStringId.SelectFontFamily" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_Title" xml:space="preserve">
+    <value>Link einfügen</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_LinkName" xml:space="preserve">
+    <value>Linkname</value>
+  </data>
+  <data name="HtmlEditStringId.InsertHyperlink_LinkAddress" xml:space="preserve">
+    <value>Linkadresse</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_Title" xml:space="preserve">
+    <value>Formatierung</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_FontSize" xml:space="preserve">
+    <value>Schriftgrad</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_FontColor" xml:space="preserve">
+    <value>Schriftfarbe</value>
+  </data>
+  <data name="HtmlEditStringId.TextSettings_BackgroundColor" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Title" xml:space="preserve">
+    <value>Tabelle einfügen</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_ApplyButton" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Columns" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
+  <data name="HtmlEditStringId.InsertTable_Rows" xml:space="preserve">
+    <value>Zeilen</value>
+  </data>
+  <data name="PdfViewerStringId.MessageSearchFinished" xml:space="preserve">
+    <value>Die Suche im Dokument ist beendet. Es wurden keine weiteren Übereinstimmungen gefunden.</value>
+  </data>
+    <data name="PdfViewerStringId.MessageSearchFinishedNoMatchesFound" xml:space="preserve">
+    <value>Die Suche im Dokument ist beendet. Es wurden keine Übereinstimmungen gefunden.</value>
+  </data>
+  <data name="PdfViewerStringId.MessageErrorTitle" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="PdfViewerStringId.MessageLoadingError" xml:space="preserve">
+    <value>Das PDF-Dokument konnte nicht geladen werden, weil die folgende Datei nicht existiert oder nicht als gültiges PDF-Dokument erkannt werden konnte.</value>
+  </data>
+  <data name="PdfViewerStringId.PageCounter_GoToPage" xml:space="preserve">
+    <value>Gehe zur Seite</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Apply" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="PdfViewerStringId.Button_Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_ProtectedPDF" xml:space="preserve">
+    <value>Geschütztes PDF-Datei</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_EnterPassword" xml:space="preserve">
+    <value>Geben Sie das Kennwort ein, um dieses Dokument zu öffnen:</value>
+  </data>
+  <data name="PdfViewerStringId.PasswordRequest_Placeholder" xml:space="preserve">
+    <value>Kennwort</value>
   </data>
 </root>
