@@ -24,12 +24,12 @@ Follow the steps below to localize DevExpress .NET MAUI Controls to a specific l
 
 1. Create a new resource file and name it `DevExpress.Maui.<culture_name>.resx`. The `<culture_name>` should match language (based on the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard). For example, `DevExpress.Maui.it.resx` will be applied to your application when device language is set to **Italian**.
 1. Add the newly created resource to your application.
-1. Make certain that the `.UseDevExpress` method parameter is set to `true`. Refer to the [Localization help topic](https://docs.devexpress.devx/MAUI/404120/localization?v=22.2) to learn more on the localization process.
+1. Make certain that the `.UseDevExpress` method parameter is set to `true`. Refer to the [Localization help topic](https://docs.devexpress.com/MAUI/404120/localization?v=22.2) to learn more on the localization process.
 1. **Optional**. If you want to share your translation with the community, fork this repository, add your resource file with the translated localization strings, and create a pull request for this repository.
 
 ## Documentation
 
-[Localization](https://docs.devexpress.devx/MAUI/404120/localization?v=22.2)
+[Localization](https://docs.devexpress.com/MAUI/404120/localization?v=22.2)
 
 ## More Examples
 
